@@ -1,0 +1,44 @@
+
+.logo{
+    height:35px;
+    width:35px;
+}
+
+.sidenav{
+    width: 60px;
+    background:#004E96;
+    padding:0 10px;
+    height:100vh;
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column; 
+}
+
+ul{
+    padding:0;
+}
+
+ul li{
+    list-style-type: none;
+    margin-top: 5px;
+    
+}
+
+ul li a{
+    text-decoration:none;
+    color:white;
+    display:block;
+    padding:10px 0;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+/* 
+ul li a:hover,
+ul li a.active{
+    background:white;
+    color:#004E96;
+    
+
+    
+} */
